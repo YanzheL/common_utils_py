@@ -3,7 +3,7 @@ from logging.handlers import *
 # from logging.config import stopListening
 from queue import Queue
 
-from common_utils_py.singleton import Singleton
+from .singleton import Singleton
 
 
 class LoggerRouter(metaclass=Singleton):
